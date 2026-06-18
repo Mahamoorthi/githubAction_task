@@ -1,0 +1,11 @@
+name: test
+on: push
+
+jobs:
+  test:
+   runs-on: ubuntu-latest
+
+   steps:
+     - name: print for loop
+       run: echo "for loop printed"
+       
